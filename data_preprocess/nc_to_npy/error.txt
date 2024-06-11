@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/geode2/home/u100/tnn3/BigRed200/truongchu/data_preprocess/nc_to_npy/nc_to_npy.py", line 200, in <module>
+    transform_data()
+  File "/geode2/home/u100/tnn3/BigRed200/truongchu/data_preprocess/nc_to_npy/nc_to_npy.py", line 156, in transform_data
+    np.save(path_to_save, aggregate_data)
+  File "<__array_function__ internals>", line 180, in save
+  File "/N/soft/sles15/deeplearning/Python-3.10.10/lib/python3.10/site-packages/numpy/lib/npyio.py", line 522, in save
+    format.write_array(fid, arr, allow_pickle=allow_pickle,
+  File "/N/soft/sles15/deeplearning/Python-3.10.10/lib/python3.10/site-packages/numpy/lib/format.py", line 711, in write_array
+    array.tofile(fp)
+OSError: 1563576700 requested and 1073739776 written

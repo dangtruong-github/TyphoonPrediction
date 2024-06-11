@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/geode2/home/u100/tnn3/BigRed200/truongchu/train/train.py", line 347, in <module>
+    train_set = CustomDataset(parent_path=parent_data_path, file_path=file_name, loc=time_step_used[i], label=label_used[i], type_dataset="train")
+  File "/geode2/home/u100/tnn3/BigRed200/truongchu/train/loader/dataset.py", line 16, in __init__
+    df = pd.read_csv(df_path)
+  File "/N/u/tnn3/BigRed200/.local/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/N/u/tnn3/BigRed200/.local/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/N/u/tnn3/BigRed200/.local/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/N/u/tnn3/BigRed200/.local/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/N/u/tnn3/BigRed200/.local/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/geode2/home/u100/tnn3/BigRed200/truongchu/data_total/normalized_after_aggregated_euclid_5_time_step_POSITIVE_1_40_full_1999_2021.csv'

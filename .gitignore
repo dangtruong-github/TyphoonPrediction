@@ -1,0 +1,5 @@
+/model_save
+__pycache__/
+/data_total
+*.png
+*.out
