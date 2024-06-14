@@ -1,4 +1,0 @@
-Running file train
-Currently training: [0, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40]
-/geode2/home/u100/tnn3/BigRed200/truongchu/data_total
-normalized_after_aggregated_euclid_5_time_step_POSITIVE_1_40_full_1999_2021

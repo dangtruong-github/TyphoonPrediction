@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/geode2/home/u100/tnn3/BigRed200/truongchu/data_preprocess/normalized_data/normalized_data.py", line 151, in <module>
-    normalized_data(save_data=True)
-  File "/geode2/home/u100/tnn3/BigRed200/truongchu/data_preprocess/normalized_data/normalized_data.py", line 104, in normalized_data
-    data_npy = np.load(data_path)
-  File "/N/soft/sles15/deeplearning/Python-3.10.10/lib/python3.10/site-packages/numpy/lib/npyio.py", line 405, in load
-    fid = stack.enter_context(open(os_fspath(file), "rb"))
-FileNotFoundError: [Errno 2] No such file or directory: '/geode2/home/u100/tnn3/BigRed200/truongchu/data_total/aggregated_euclid_5_time_step_POSITIVE_1_40_full_1999_2021.npy'

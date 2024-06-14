@@ -25,7 +25,7 @@ for arg in "${args[@]}"; do
             ./bash_run/train.sh
             ;;
         eval)
-            ./bash_run/eval.sh
+            ./eval.sh
             ;;
         esac
     else
